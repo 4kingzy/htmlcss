@@ -5,6 +5,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 87%;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Banner Overlay*/
+
 .container {
     max-width: 940px;
     margin-left: auto;
@@ -45,6 +52,20 @@ header {
 }
 
 /* End Site Navigation */
+.image-banner {
+    position: relative;
+}
+.image-banner img {
+    display:block;
+}
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(57, 41, 41, 0.65);
+    padding: 15px 25px;
+}
 header h1 {
     margin: 0;
     font-weight: normal;
@@ -82,3 +103,4 @@ footer p {
     display: table;
     clear: both;
   }
+
